@@ -1,0 +1,1 @@
+"use strict";const inputs=document.querySelectorAll(".controls input");function handleUpdate(){const e=this.dataset.sizing||"";document.documentElement.style.setProperty(`--${this.name}`,this.value+e)}inputs.forEach(e=>e.addEventListener("change",handleUpdate)),inputs.forEach(e=>e.addEventListener("mousemove",handleUpdate));
